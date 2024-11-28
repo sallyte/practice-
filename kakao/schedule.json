@@ -1,0 +1,16 @@
+
+[
+    {
+    "name": "오메가 3",
+    "description": "오메카 3를 먹을시간입니다.",
+    "time": 10
+},
+{ "name": "비타민 c",
+"description": "비타민 c를 먹을시간입니다.",
+"time": 30
+},
+{ "name": "비타민 D",
+"description": "비타민 D를 먹을시간입니다.",
+"time": 45
+}
+]

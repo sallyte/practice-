@@ -1,0 +1,15 @@
+class dataprocessor:
+    def read_data(self, file_path):
+      return open(file_path).read()
+    
+    def process_data(self, data):
+      return data.lower()
+    
+    def save_data(self, data, file_path):
+      with open(file_path, 'w')as f:
+        f.write(data)
+
+processor = dataprocessor()
+data = processor.read_data('input.txt')
+processed_data = processor.process_data(data)
+processor.save_data(processed_data, 'output.txt')
